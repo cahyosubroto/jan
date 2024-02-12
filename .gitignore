@@ -29,3 +29,6 @@ extensions/inference-nitro-extension/bin/*/*.lib
 extensions/inference-nitro-extension/bin/saved-*
 extensions/inference-nitro-extension/bin/*.tar.gz
 
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
