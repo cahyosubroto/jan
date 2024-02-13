@@ -93,7 +93,7 @@ const Advanced = () => {
   return (
     <div className="block w-full">
       {/* Keyboard shortcut  */}
-      <div className="flex w-full items-start justify-between border-b border-border py-4 first:pt-0 last:border-none">
+      <div className="border-border flex w-full items-start justify-between border-b py-4 first:pt-0 last:border-none">
         <div className="flex-shrink-0 space-y-1.5">
           <div className="flex gap-x-2">
             <h6 className="text-sm font-semibold capitalize">
@@ -108,7 +108,7 @@ const Advanced = () => {
       </div>
 
       {/* Experimental */}
-      <div className="flex w-full items-start justify-between border-b border-border py-4 first:pt-0 last:border-none">
+      <div className="border-border flex w-full items-start justify-between border-b py-4 first:pt-0 last:border-none">
         <div className="flex-shrink-0 space-y-1.5">
           <div className="flex gap-x-2">
             <h6 className="text-sm font-semibold capitalize">
@@ -127,7 +127,7 @@ const Advanced = () => {
 
       {/* CPU / GPU switching */}
       {!isMac && (
-        <div className="flex w-full items-start justify-between border-b border-border py-4 first:pt-0 last:border-none">
+        <div className="border-border flex w-full items-start justify-between border-b py-4 first:pt-0 last:border-none">
           <div className="flex-shrink-0 space-y-1.5">
             <div className="flex gap-x-2">
               <h6 className="text-sm font-semibold capitalize">Nvidia GPU</h6>
@@ -189,7 +189,7 @@ const Advanced = () => {
       )}
       <DataFolder />
       {/* Proxy */}
-      <div className="flex w-full items-start justify-between border-b border-border py-4 first:pt-0 last:border-none">
+      <div className="border-border flex w-full items-start justify-between border-b py-4 first:pt-0 last:border-none">
         <div className="flex-shrink-0 space-y-1.5">
           <div className="flex gap-x-2">
             <h6 className="text-sm font-semibold capitalize">HTTPS Proxy</h6>
@@ -207,7 +207,7 @@ const Advanced = () => {
       </div>
 
       {/* Ignore SSL certificates */}
-      <div className="flex w-full items-start justify-between border-b border-border py-4 first:pt-0 last:border-none">
+      <div className="border-border flex w-full items-start justify-between border-b py-4 first:pt-0 last:border-none">
         <div className="flex-shrink-0 space-y-1.5">
           <div className="flex gap-x-2">
             <h6 className="text-sm font-semibold capitalize">
@@ -223,7 +223,7 @@ const Advanced = () => {
       </div>
 
       {/* Clear log */}
-      <div className="flex w-full items-start justify-between border-b border-border py-4 first:pt-0 last:border-none">
+      <div className="border-border flex w-full items-start justify-between border-b py-4 first:pt-0 last:border-none">
         <div className="flex-shrink-0 space-y-1.5">
           <div className="flex gap-x-2">
             <h6 className="text-sm font-semibold capitalize">Clear logs</h6>
